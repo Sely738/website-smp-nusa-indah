@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navbar (Navigation Bar) dengan Bootstrap</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<section class="body">
+	<style>
+		.body{
+		background-color: rgb(218, 231, 228);
+		}
+		.navbar{
+			background-color: rgb(17, 17, 17);
+		}
+	
+	</style>
+	<nav class="navbar">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle Nav</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"><img src="images/SMP.jpg" alt="">SMP NUSA INDAH</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="index.html">Beranda<span class="sr-only">(current)</span></a></li>
+			<li class="dropdown">
+				<a href="Profil.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="sejarah smp nusa indah.html">Sejarah Smp Nusa Indah</a></li>
+				<li><a href="visi misi.html">Visi Misi</a></li>
+				</ul>	
+			<li><a href="Fasilitas.html">Fasilitas</a></li>
+			<li><a href="Berita.html">Berita</a></li>
+			<li><a href="ekstrakulikuler.html">Ekstrakulikuler</a></li>
+			<li><a href="data guru.html">Data Guru</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="data-guru" class="col-md-12">
+		<br><h1>Bertemu Dengan Guru Di Sekolah Kami</h1>
+		<h3>Sekolah Smp Nusa Indah memiliki guru hebat dengan berbagai jenis
+			<br>lulusan yang handal dan berkompeten dibidangnya masing-masing</h3>
+		</div>
+	</div>	
+	<style>
+		.data-guru{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(21, 21, 21);
+				text-align: center;
+			}
+	</style>
+	<div class="foto-box">
+	<div class="container"> 
+		<div class="row">
+        <div class="col-md-3"><br><img src="images/buk dian.jpg" class="img-responsive" style="width: 250px;"><br><p>DIAN ISNAWATI,S.Pd,Gr</p></div><br>
+		<div class="col-md-3"><img src="images/buk ningrum.jpg" class="img-responsive" style="width: 250px;"><br><p>SURYA NINGRUM,S.Pd,Gr</p></div>
+		<div class="col-md-3"><img src="images/buk liza.jpg" class="img-responsive" style="width: 250px;"><br><p>MUKHLIZAH RAHMAH,S.Pd,Gr</p></div>
+		<div class="col-md-3"><img src="images/buk susi.jpg" class="img-responsive" style="width: 250px;"><br><p>SUSILAWATI,S.Pd,Gr</p></div>
+		<div class="row"></div>
+		<div class="col-md-3"><br><img src="images/kk zuar.jpg" class="img-responsive" style="width: 250px;"><br><p>AZWAR IHSAN,S.Pd</p></div>
+		<div class="col-md-3"><br><img src="images/BUK WILI.jpg" class="img-responsive" style="width: 250px;"><br><p>WILLY RISMAYANI,S.Pd,Gr</p></div>
+		<div class="col-md-3"><br><img src="images/kk dina.jpg" class="img-responsive" style="width: 250px;"><br><p>DINA INDRIANI,S.Pd</p></div>
+		<div class="col-md-3"><br><img src="images/buk mayang.jpg" class="img-responsive" style="width: 250px;"><br><p>SARIATI BR.GINTING,S.Kom,Gr</p></div>
+		
+	</div>	
+	</div>
+	</div>
+	<style>
+						.foto-box{
+						display: flex;
+						justify-content: space-around;
+						gap: 24px;
+						flex-direction: row;
+						margin-top: 24px;
+						box-shadow: 0 6px 18px rgba(0,0,0,.15);
+						border-radius: 16px;
+						padding: 12px 24px 24px;
+						font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+								  }
+				</style>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

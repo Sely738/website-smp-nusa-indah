@@ -1,0 +1,172 @@
+a<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navbar (Navigation Bar) dengan Bootstrap</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<section class="body">
+	<style>
+		.body{
+		background-color: rgb(218, 231, 228);
+		}
+		.navbar{
+			background-color: rgb(17, 17, 17);
+		}
+	
+	</style>
+	<nav class="navbar">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle Nav</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"><img src="images/SMP.jpg" alt="">SMP NUSA INDAH</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="index.html">Beranda<span class="sr-only">(current)</span></a></li>
+			<li class="dropdown">
+				<a href="Profil.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="sejarah smp nusa indah.html">Sejarah Smp Nusa Indah</a></li>
+				<li><a href="visi misi.html">Visi Misi</a></li>
+				</ul>	
+			<li><a href="Fasilitas.html">Fasilitas</a></li>
+			<li><a href="Berita.html">Berita</a></li>
+			<li><a href="ekstrakulikuler.html">Ekstrakulikuler</a></li>
+			<li><a href="data guru.html">Data Guru</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	</section>
+
+
+	<!-- Banner Berjalan - Box di atas, Text di bawah -->
+  <div class="banner-gerak">
+    <div class="banner-box">
+    </div>
+    
+    <div class="banner-marquee">
+      <span>SPMB Nusa Indah Tahun Ajaran 2026/2027 Telah Dibuka,Ayo Segera Mendaftar Di Smp Nusa Indah"Unggul Berprestasi Berakhlak"</span>
+    </div>
+  </div>
+
+  <style>
+  /* Banner 2 baris - Box atas, Marquee bawah */
+    .banner-gerak {
+      background: #219646;
+      color: white;
+      padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .banner-box {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .banner-marquee {
+      width: 100%;
+      overflow: hidden;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .banner-marquee span {
+      animation: jalan 25s linear infinite;
+      white-space: nowrap;
+      display: inline-block;
+      padding-left: 100%;
+    }
+
+    @keyframes jalan {
+     0% { transform: translateX(0); }
+     100% { transform: translateX(-100%); }
+    }
+</style>	
+		<div class="hero">
+			<img src="images/gedung smp.png" alt="gedung sekolah">
+		</div>
+		
+		<div class="hero-text">
+			<h1>SELAMAT DATANG</h1>
+			<h2>WEBSITE SMP NUSA INDAH TRANS BLOK M TELAGA JERNIH, KEC. SECANGGANG, KAB. LANGKAT</h2>
+		</div>
+			<section class="kepsek">
+					<div class="kepsek-foto">
+					<img src="images/kepsek.jpg" alt="kepala sekolah"></div>
+				</div>
+				<div class="kepsek-text">
+					<h2>Kata Sambutan</h2>
+					<h4> Assalamu'alaikum Warahmatullahi Wabarakatuh</h4>
+					<p>
+						Puji dan syukur kita panjatkan ke hadirat Tuhan Yang Maha Esa atas segala limpahan rahmat dan karunia-Nya sehingga SMP Nusa Indah dapat terus hadir dan berkarya dalam dunia pendidikan, membimbing generasi penerus bangsa menuju masa depan yang lebih cerah.
+
+Selamat datang di website SMP Nusa Indah. Melalui ruang digital ini, kami ingin membuka jendela seluas-luasnya bagi seluruh sivitas akademika, orang tua, dan masyarakat untuk mengenal lebih dekat perjalanan, prestasi, serta program unggulan sekolah kami.
+
+SMP Nusa Indah berdiri dengan komitmen yang teguh untuk mewujudkan pendidikan yang berkualitas, berkarakter, dan berwawasan global. Kami percaya bahwa setiap siswa memiliki potensi unik yang perlu diasah dengan penuh kasih sayang, kesabaran, dan dedikasi dari seluruh tenaga pendidik dan kependidikan kami.
+
+Sejalan dengan semangat Kurikulum Merdeka, kami terus mendorong para peserta didik untuk berpikir kritis, berkreasi, berkolaborasi, dan berkomunikasi secara efektif. Bukan hanya unggul dalam akademik, tetapi juga membentuk pribadi yang beriman, berakhlak mulia, dan bertanggung jawab terhadap diri sendiri, keluarga, masyarakat, serta bangsa dan negara.
+
+Kepercayaan orang tua dan masyarakat yang telah menitipkan putra-putri terbaik mereka kepada kami adalah amanah yang kami emban dengan sepenuh hati. Kami berkomitmen untuk terus berinovasi, meningkatkan mutu pembelajaran, serta menciptakan lingkungan sekolah yang aman, nyaman, dan menyenangkan bagi seluruh warga sekolah.
+
+Akhir kata, saya mengajak seluruh keluarga besar SMP Nusa Indah untuk terus bersinergi dan bergotong royong dalam membangun sekolah yang kita cintai bersama. Semoga setiap langkah yang kita ambil senantiasa diberkahi oleh Tuhan Yang Maha Esa dan membawa manfaat yang sebesar-besarnya bagi anak didik kita.
+
+Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+<h4>Kepala sekolah</h4>
+<p>Pertaki Ranto Angkat S.pd</p>
+</section>
+<section class="all">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-4">
+			<h3 class="buka">Sosmed</h3>
+			<p class="delevery" ><a href="https://www.facebook.com/share/18e5KuzB5b/"><img src="images/fb.jpg" class="img-circle" width="40px"></a></p></div>
+		<div class="col-md-4">
+			<h4 class="buka">Alamat</h4>
+			<p class="alamat">Trans Blok M Desa Telaga Jernih,Kec.Secanggang,Kab.Langkat<br><a href="https://share.google/WtCf8sRuB4jEA6mjc"> <img src="images/maps.jpg"  class="img-circle" width="40px"></a></p></div>
+		<div class="col-md-4"></a></p></div>
+		<div class="col-md-4">
+			<h4 class="buka">Kontak</h4>
+			<di class="delevery"><h4>Sely Ayunita</h4><h4></h4>083894726436</h4></div>
+		</div>
+		<style>
+			.delevery{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.alamat{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.buka{
+				margin-top: 40px;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.all{
+				background-color: #005F02;
+				text-align: center;
+			}
+		
+		</style>
+		</div><br>
+	</section>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+	</body>
+	</html>		

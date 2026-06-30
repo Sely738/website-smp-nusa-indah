@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navbar (Navigation Bar) dengan Bootstrap</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<section class="body">
+	<style>
+		.body{
+		background-color: rgb(218, 231, 228);
+		}
+		.navbar{
+			background-color: rgb(17, 17, 17);
+		}
+	
+	</style>
+	<nav class="navbar">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle Nav</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"><img src="images/SMP.jpg" alt="">SMP NUSA INDAH</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="index.html">Beranda<span class="sr-only">(current)</span></a></li>
+			<li class="dropdown">
+				<a href="Profil.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="sejarah smp nusa indah.html">Sejarah Smp Nusa Indah</a></li>
+				<li><a href="visi misi.html">Visi Misi</a></li>
+				</ul>	
+			<li><a href="Fasilitas.html">Fasilitas</a></li>
+			<li><a href="Berita.html">Berita</a></li>
+			<li><a href="ekstrakulikuler.html">Ekstrakulikuler</a></li>
+			<li><a href="data guru.html">Data Guru</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="fasi-litas" class="col-md-12">
+		<br><h1>Fasilitas Smp Nusa Indah</h1>
+		<h2>Sekolah Nyaman,Siswa/i Berprestasi</h2>
+		</div>
+	</div>	
+	<style>
+		.fasi-litas{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(17, 16, 17);
+				text-align: center;
+			}
+	</style>
+	<div class="foto-box">
+	<div class="container"> 
+		<div class="row">
+        <div class="col-md-6"><br><h2>1.Ruang Kelas</h2><img src="images/r.kelas.jpg" class="img-responsive" style="width:4000px;"><br><p>Ruang kelas yang nyaman,rapi,bersih,hati dan pikiran menjadi tenang untuk menuntut ilmu dengan semangat </p></div><br>
+		<div class="col-md-6"><h2>2.Perpustakaan</h2><img src="images/perpus.jpg" class="img-responsive" style="width: 4000px;"><br><p>Gerakan literasi sekolah dimulai dari perpustakaan yang sudah disediakan.</p></div><br>
+		<div class="row"></div>
+		<div class="col-md-6"><br><h2>3.Mushola</h2><img src="images/mushola.jpg" class="img-responsive" style="width: 4000px;"><br><p>Disela padatnya kegiatan belajar,Mushola ini disediakan untuk para guru,siswa/i,staf sekolah, menenangkan diri dan mendekatkan diri kepada Allah SWT.</p></div>
+		<div class="col-md-6"><br><h2>4.Lapangan Upacara</h2><img src="images/lapangan upacara.jpg" class="img-responsive" style="width:4000px;"><br><p>Setiap helai Merah Putih yang naik,setiap suara Indonesia Raya yang menggema,semua bermula dari lapangan ini.Lapangan upcara ini menjadi tempat para siswa/i berdiri tegak,bicara lantang,& menepati janji sebagai pelajar pancasila.</p></div>
+		<div class="row"></div>
+		<div class="col-md-6"><br><h2>5.Parkiran</h2><img src="images/parkiran.jpg" class="img-responsive" style="width: 4000px;"><br><p>Sekolah menyediakan area parkir yang luas dan terorganisir untuk menunjang keamanan & kenyamanan warga sekolah.</p></div>
+		<div class="col-md-6"><br><h2>6.Pentas Seni</h2><img src="images/pentas.jpg" class="img-responsive" style="width: 4000px;"><br><p>Disini ide menjadi aksi,dan bakat menjadi karya.Fasilitas pentas seni di Smp Nusa Indah hadir sebagai ruang berekspresi untuk seluruh siswa.</p></div>
+		<div class="col-md-6"><br><h2>7.Lapangan Futsal</h2><img src="images/lap futsal.jpg" class="img-responsive" style="width: 4000px;"><br><p>Sekolah menyediakan lapangan futsal standar untuk pembinaan fisik,mental,dan jiwa sportivitas siswa melalui olahraga.</p></div>
+		<div class="col-md-6"><br><h2>8.Mobil Antar Jemput</h2><img src="images/mobil.jpg" class="img-responsive" style="width: 4000px;"><br><p>Menjemput ilmu,Menjemput berkah,sekolah menyediakan mobil antar jemput untuk memudahkan para siswa/i yang tidak memiliki kendaraan tetap bisa bersekolah.</p></div>
+
+	
+	</div>	
+	</div>
+	</div>
+	<style>
+						.foto-box{
+						display: flex;
+						justify-content: space-around;
+						gap: 24px;
+						flex-direction: row;
+						margin-top: 24px;
+						box-shadow: 0 6px 18px rgba(0,0,0,.15);
+						border-radius: 16px;
+						padding: 12px 24px 24px;
+						font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+								  }
+				</style>
+				<section class="all">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-4">
+			<h3 class="buka">Sosmed</h3>
+			<p class="delevery" ><a href="https://www.facebook.com/share/18e5KuzB5b/"><img src="images/fb.jpg" class="img-circle" width="40px"></a></p></div>
+		<div class="col-md-4">
+			<h4 class="buka">Alamat</h4>
+			<p class="alamat">Trans Blok M Desa Telaga Jernih,Kec.Secanggang,Kab.Langkat<br><a href="https://share.google/WtCf8sRuB4jEA6mjc"> <img src="images/maps.jpg"  class="img-circle" width="40px"></a></p></div>
+		<div class="col-md-4"></a></p></div>
+		<div class="col-md-4">
+			<h4 class="buka">Kontak</h4>
+			<di class="delevery"><h4>Sely Ayunita</h4><h4></h4>083894726436</h4></div>
+		</div>
+		<style>
+			.delevery{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.alamat{
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.buka{
+				margin-top: 40px;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				color: rgb(255, 244, 231);
+			}
+			.all{
+				background-color: #005F02;
+				text-align: center;
+			}
+		
+		</style>
+		</div><br>
+	</section>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
